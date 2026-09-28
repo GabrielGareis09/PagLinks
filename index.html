@@ -333,13 +333,13 @@
        EDITE SOMENTE ESTES 4 LINKS:
        troque os valores entre aspas pelos seus URLs reais.
        ========================================================== */
+    /* O catálogo abre em uma nova aba para a pessoa visualizar antes de baixar. */
     const LINKS = {
-      loja: "https://seu-link-da-loja.com",
-      instagram: "https://instagram.com/sua-marca",
+      loja: "https://gabrielgareis09.github.io/Matrizia/",
+      instagram: "https://www.instagram.com/matrizia.football?stkn=MWpremx4azc0eTVsZw==",
       whatsapp: "https://wa.me/5500000000000",
-      catalogo: "https://seu-link-do-catalogo.com"
+      catalogo: "https://i.ibb.co/5Wcf0kdF/matrizia-catalogo-mockup.png"
     };
-
     document.querySelectorAll("[data-link]").forEach((card) => {
       const key = card.dataset.link;
       if (LINKS[key]) card.href = LINKS[key];
